@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .box{
+            color: green;
+        }
+        /* 必须是p标签，且添加了box属性 */
+        p.box{
+            color: red;
+        }
+    </style>
+</head>
+<body>
+    <!-- 找到第一个p，带box类的，设置文字样式红 -->
+    <p class="box">这个p标签：box</p>
+    <p>ppppp</p>
+    <div class="box">div标签：box</div>
+</body>
+</html>
